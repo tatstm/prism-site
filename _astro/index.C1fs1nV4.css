@@ -1,0 +1,1 @@
+@layer components{.authors-list{columns:2 22rem;column-gap:var(--space-7)}.authors-list li{break-inside:avoid}}

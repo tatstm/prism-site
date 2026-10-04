@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 96" role="img" aria-label="prism">
+  <!--
+    Placeholder wordmark. Replace this file with the official PRISM wordmark SVG,
+    then set USE_SVG to true in src/components/Wordmark.astro.
+    Use fill="currentColor" in the official file if it should follow light and dark mode.
+  -->
+  <text x="4" y="66" font-family="Spectral, Georgia, 'Times New Roman', serif" font-style="italic" font-size="84" fill="currentColor">prism</text>
+</svg>
