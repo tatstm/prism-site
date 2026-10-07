@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="theme-color" content="#FAF8F3"><!-- Links to other sites tell them only that the reader came from this site, not from which page. --><meta name="referrer" content="strict-origin-when-cross-origin"><style>
+      @layer reset, tokens, base, layout, components, utilities, print;
+    </style><script>
+      // The site is light unless the reader has chosen dark; apply that choice before the page paints.
+      (function () {
+        function apply() {
+          var root = document.documentElement;
+          root.classList.add('js');
+          var theme = 'light';
+          try {
+            if (localStorage.getItem('prism-theme') === 'dark') theme = 'dark';
+          } catch (e) {}
+          root.dataset.theme = theme;
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', theme === 'dark' ? '#141311' : '#FAF8F3');
+        }
+        apply();
+        document.addEventListener('astro:after-swap', apply);
+      })();
+    </script><meta name="viewport" content="width=device-width, initial-scale=1"><title>Submit · PRISM</title><meta name="description" content="Submission guidelines for PRISM, a youth journal of history and social science. Requirements for papers and other work, the AI policy, and how review works."><link rel="canonical" href="https://www.prismyouthjournal.com/submit/"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"><meta name="prism-build" content="20261007T132043"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="sitemap" href="/sitemap-index.xml"><meta property="og:site_name" content="PRISM: A Youth Journal of History and Social Science"><meta property="og:title" content="Submit"><meta property="og:description" content="Submission guidelines for PRISM, a youth journal of history and social science. Requirements for papers and other work, the AI policy, and how review works."><meta property="og:type" content="website"><meta property="og:url" content="https://www.prismyouthjournal.com/submit/"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://www.prismyouthjournal.com/brand/og-default.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Submit"><meta name="twitter:description" content="Submission guidelines for PRISM, a youth journal of history and social science. Requirements for papers and other work, the AI policy, and how review works."><meta name="astro-view-transitions-enabled" content="true"> <meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.Bwsu7jgA.js"></script><meta http-equiv="content-security-policy" content="default-src 'self';img-src 'self' data:;font-src 'self';connect-src 'self';media-src 'self';object-src 'none';frame-src 'none';base-uri 'self';form-action 'self'; script-src 'self' 'wasm-unsafe-eval' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='; style-src 'self' 'unsafe-inline' ;"><link rel="stylesheet" href="/_astro/BaseLayout.Nr0KLpwt.css"><link rel="stylesheet" href="/_astro/submit.C4oyK2pu.css"><script type="module" src="/_astro/page.9pYLC08D.js"></script></head> <body> <a class="skip-link" href="#main">Skip to main content</a>  <header class="site-header"> <div class="wrap site-header__inner"> <a class="site-header__brand" href="/" aria-label="PRISM home"> <span class="wordmark" translate="no">
+prism
+</span> <span class="site-header__spectrum" aria-hidden="true"></span> </a> <nav class="site-nav" aria-label="Main"> <ul class="site-nav__list"> <li> <a href="/issues/"> Issues </a> </li><li> <a href="/papers/"> Papers </a> </li><li> <a href="/submit/" aria-current="page"> Submit </a> </li><li> <a href="/about/"> About </a> </li> </ul> </nav> <div class="site-header__tools"> <form class="site-search" action="/search/" method="get" role="search" aria-label="Site search"> <label class="visually-hidden" for="site-search-input">Search the journal</label> <input id="site-search-input" class="site-search__input" type="search" name="q" placeholder="Search" autocomplete="off" enterkeyhint="search"> <button class="site-search__button" type="submit" aria-label="Search"> <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"> <circle cx="8.5" cy="8.5" r="5.75" fill="none" stroke="currentColor" stroke-width="1.5"></circle> <path d="M13 13l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path> </svg> </button> </form> <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark"> <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"> <circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"></circle> <path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"></path> </svg> </button> </div> </div> </header><script type="module" src="/_astro/Header.astro_astro_type_script_index_0_lang.DEXox5Rq.js"></script> <main id="main" tabindex="-1">  <div data-pagefind-body> <span class="visually-hidden" aria-hidden="true" data-pagefind-meta="type:Page"></span> <div class="wrap page-head"> <h1 data-pagefind-meta="title">Submit a paper</h1> <p>PRISM welcomes original work from students. Where an issue has a particular theme, it will be announced when submissions open.</p> </div> <div class="wrap"> <div class="submit-call"> <div> <p class="label">Submissions</p> <p class="submit-call__deadline"> Not accepting submissions yet </p> </div>  </div> </div> <div class="wrap section submit-layout"> <nav class="submit-toc" aria-label="On this page" data-pagefind-ignore> <p class="label">On this page</p> <ol> <li><a href="#what-we-publish">What we publish</a></li><li><a href="#papers">Papers</a></li><li><a href="#other-formats">Other formats</a></li><li><a href="#acknowledgments">Acknowledgments</a></li><li><a href="#originality-and-ai-use">Originality and AI use</a></li><li><a href="#how-to-submit">How to submit</a></li><li><a href="#how-review-works">How review works</a></li><li><a href="#deadlines">Deadlines</a></li><li><a href="#cost">Cost</a></li><li><a href="#rights-and-consent">Rights and consent</a></li> </ol> </nav> <div class="prose submit-prose"> <h2 id="what-we-publish">What we publish</h2>
+<p>Research papers in history and sociology, and alternative formats of work such as artwork, book reviews and personal essays.</p>
+<p>Every submission must concern a topic of social or historical significance, broadly construed. This includes disciplines like history, sociology, psychology and political economy, as well as more politically or socially oriented topics in English and comparative literature.</p>
+<h2 id="papers">Papers</h2>
+<p>A history or sociology paper must:</p>
+<ul>
+<li>be at least 800 words and no more than 8,000 words long;</li>
+<li>be a completely original piece of work;</li>
+<li>cite its sources in parenthetical citations;</li>
+<li>be the result of significant research in both primary and secondary sources;</li>
+<li>concern a topic of social or historical significance, broadly construed.</li>
+</ul>
+<h2 id="other-formats">Other formats</h2>
+<p>Artwork, book reviews, personal essays and other alternative formats must:</p>
+<ul>
+<li>include a bibliography of all works consulted, in Chicago Manual of Style format (footnotes and endnotes are not required);</li>
+<li>be a completely original piece of work;</li>
+<li>concern a topic of social or historical significance, broadly construed.</li>
+</ul>
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>Teachers, mentors, peers, or anyone else who helped with parts of your work must be acknowledged on an acknowledgment page placed between the end of the work and the bibliography. This applies to papers and to every other format.</p>
+<h2 id="originality-and-ai-use">Originality and AI use</h2>
+<p>Every submission must be entirely your own work. PRISM does not tolerate the use of AI whatsoever. Anyone caught using AI will not be allowed to publish in PRISM, ever. See the <a href="../about/policies/#originality-and-ai-use">policies page</a>.</p>
+<h2 id="how-to-submit">How to submit</h2>
+<p>PRISM is not accepting submissions yet. When submissions open, you will email your work to the current Editors-in-Chief as a Word document.</p>
+<p>Name the file <code>[first name]_[last name]_prism_submission</code>, for example <code>Jane_Smith_prism_submission.docx</code>.</p>
+<h2 id="how-review-works">How review works</h2>
+<ol>
+<li><strong>Screening.</strong> Editors screen every submission promptly against these guidelines. Within a week of submitting, you should receive an email either confirming that your work will be reviewed or explaining that it does not meet the guidelines.</li>
+<li><strong>Review.</strong> Each submission that meets the guidelines is assigned a reviewer, who reads it and recommends that it be accepted, revised, or rejected.</li>
+<li><strong>Decision.</strong> The Editorial Board meets and, guided by that recommendation, decides the final outcome for each submission.</li>
+</ol>
+<p>If your work is accepted, it will be published in the upcoming issue of PRISM. If you are asked to revise and resubmit, PRISM commits to publishing your work as long as you make the recommended revisions.</p>
+<p>PRISM does not consider work that has previously been rejected, but you are welcome and encouraged to submit other essays.</p>
+<h2 id="deadlines">Deadlines</h2>
+<p>Submission windows are announced at the start of each submission period, along with the issue's theme if it has one.</p>
+<h2 id="cost">Cost</h2>
+<p>Submission is free.</p>
+<h2 id="rights-and-consent">Rights and consent</h2>
+<p>Authors keep the copyright in their work. By submitting, an author gives PRISM permission to publish the work in print and online, and agrees that their name, school and class year will appear with it. An author may ask to be credited by initials only.</p>
+<p>Readers may quote and cite any paper published in PRISM, with credit to its author and the journal, but may never present any part of it as their own work.</p>
+ </div> </div> </div>  </main> <footer class="site-footer"> <div class="wrap site-footer__inner"> <div class="site-footer__brand"> <a href="/" class="site-footer__wordmark" aria-label="PRISM home"><span class="wordmark" translate="no">
+prism
+</span></a> <p>A Youth Journal of History and Social Science</p> <p class="meta">Edited by students at Milton Academy.</p> </div> <nav aria-label="Footer"> <ul class="site-footer__nav"> <li> <a href="/issues/">Issues</a> </li><li> <a href="/papers/">Papers</a> </li><li> <a href="/authors/">Authors</a> </li><li> <a href="/submit/">Submit</a> </li><li> <a href="/about/">About</a> </li><li> <a href="/about/policies/">Policies</a> </li><li> <a href="/search/">Search</a> </li> </ul> </nav> <dl class="site-footer__facts"> <div> <dt class="label">Faculty Advisor</dt> <dd> <a class="person-link" href="/board/joshua-emmott/">Joshua Emmott</a></dd> </div> <div> <dt class="label">Contact</dt> <dd> <a href="mailto:prismyouthjournal.milton@gmail.com">prismyouthjournal.milton@gmail.com</a> </dd> </div> </dl> </div> </footer> </body> </html><script type="module" src="/_astro/BaseLayout.astro_astro_type_script_index_0_lang.C3PnjPzv.js"></script>

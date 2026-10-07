@@ -1,0 +1,1 @@
+var e=[`discipline`,`region`,`theme`,`school`,`volume`];export{e as t};
